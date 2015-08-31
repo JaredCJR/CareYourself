@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical"
+    android:id="@+id/frg_main"
+    android:background="@drawable/bg_color_main">
+
+    <ImageButton
+        android:id="@+id/ankle_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="78dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/transparent_background"
+        android:onClick="onSubmit"
+        android:src="@drawable/btn_body" />
+    
+    <ImageButton
+        android:id="@+id/belly_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="225dp"
+        android:layout_marginRight="130dp"
+        android:background="@color/transparent_background"
+        android:onClick="onSubmit"
+        android:src="@drawable/btn_body" />
+    
+    
+   <ImageButton
+        android:id="@+id/head_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="320dp"
+        android:layout_marginRight="130dp"
+        android:background="@color/transparent_background"
+        android:onClick="onSubmit"
+        android:src="@drawable/btn_body" />
+   
+   <ImageButton
+        android:id="@+id/hand_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="350dp"
+        android:layout_marginRight="250dp"
+        android:background="@color/transparent_background"
+        android:onClick="onSubmit"
+        android:src="@drawable/btn_body" />
+
+</RelativeLayout>

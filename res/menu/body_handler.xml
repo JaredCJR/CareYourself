@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbartest.MainActivity" >
+
+    <item
+        android:id="@+id/Video"
+        android:icon="@drawable/video"
+        android:showAsAction="always"
+        android:title="@string/recommand_video"
+        android:actionLayout="@layout/video_btn"/>
+
+</menu>
+
+
+
+
+
+

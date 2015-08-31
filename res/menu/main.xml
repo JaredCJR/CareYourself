@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.careyourself.MainActivity" >
+    
+    
+    <item android:id="@+id/action_google_map"
+          android:icon="@drawable/google_maps"
+          android:title="@string/action_google_map"
+          android:showAsAction="always" />
+
+    <item android:id="@+id/action_leave_message"
+          android:icon="@drawable/ic_action_edit"
+          android:title="@string/action_leave_message"
+          android:showAsAction="always" />
+    
+    
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_about"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_about"/>
+
+</menu>

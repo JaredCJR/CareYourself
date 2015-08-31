@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CareYourself</string>
+    <string name="chinese_app_name">醫生醫事</string>
+    <string name="title_tab1">有點疼</string>
+    <string name="title_tab2">查健康</string>
+    <string name="title_tab3">我想說</string>
+    
+    <string name="recommand_video">推薦影片</string>
+    
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_google_map">Google Map!</string>
+    <string name="action_leave_message">我想說</string>
+    <string name="action_about">About</string>
+    <string name="about">想了解我們嗎？</string>
+    <string name="version">ver.0</string>
+    <string name="message_title">標題：</string>
+    <string name="message_content">內容：</string>
+    <string name="bmi_age">年齡：</string>
+    <string name="bmi_height">身高：(cm)</string>
+    <string name="bmi_weight">體重：(kg)</string>
+    <string name="bmi_bmi">身體質量指數(BMI)：</string>
+    <string name="bmi_situation">你目前的狀況是：</string>
+    <string name="bmi_range">你的理想BMI範圍是：</string>
+    <string name="bmi_ideal_weight">理想體重：</string>
+    
+    <!--我想說-->
+    <string name="leave_message_title">交流區</string>
+    <string name="remind">請選擇要交流的區域</string>
+    <string name="action_search">搜尋</string>
+    <string name="search_title">關鍵字：</string>
+    <string name="search_result">搜尋結果</string>
+    
+
+</resources>

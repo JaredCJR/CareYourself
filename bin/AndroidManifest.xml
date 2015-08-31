@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.careyourself"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:configChanges="orientation|keyboardHidden|screenSize"
+        android:label="@string/chinese_app_name"
+        android:theme="@style/Custom" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/chinese_app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+                <!-- 留言元件 -->
+        <activity
+            android:name="message.Leave_message_activity">
+            <intent-filter>
+                <!-- 新增用的名稱 -->
+                <action android:name="com.example.careyourself.ADD_messagePage"/>
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 選擇部位後的元件 -->
+        <activity
+            android:name="body.Choose_body">
+            <intent-filter>
+                <!-- 動作名稱 -->
+                <action android:name="com.example.careyourself.Choose_body"/>
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                <!-- 處理方法 -->
+        <activity
+            android:name="body.Body_handler">
+            <intent-filter>
+                <!-- 動作名稱 -->
+                <action android:name="com.example.careyourself.Body_handler"/>
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                        <!-- 留言板 -->
+        <activity
+            android:name="message.sel_loc_msg_activity">
+            <intent-filter>
+                <!-- 動作名稱 -->
+                <action android:name="com.example.careyourself.sel_loc_msg_activity"/>
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                                <!-- 留言板搜尋 -->
+        <activity
+            android:name="message.search_msg">
+            <intent-filter>
+                <!-- 動作名稱 -->
+                <action android:name="com.example.careyourself.search_msg"/>
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                                        <!-- 留言板搜尋 結果-->
+        <activity
+            android:name="message.search_result_msg">
+            <intent-filter>
+                <!-- 動作名稱 -->
+                <action android:name="com.example.careyourself.search_result_msg"/>
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                                                <!-- BMI 結果-->
+        <activity
+            android:name="bmi.BMI_result">
+            <intent-filter>
+                <!-- 動作名稱 -->
+                <action android:name="com.example.careyourself.BMI_result"/>
+                <!-- 一定要加入，內容固定不變 -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+    </application>
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    
+</manifest>
